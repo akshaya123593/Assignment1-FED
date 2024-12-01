@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoBeyond</title>
+    <link rel="stylesheet" href="flight.css"> 
+</head>
+<body style="background-image: url('flightspage.jpg'); background-size: cover;">
+
+    <!-- Header -->
+    <div class="header">
+        <h1>GoBeyond</h1>
+    </div>
+
+    <!-- Search Bar  -->
+    <div class="search-container">
+        <form class="search-form">
+            <input type="text" id="destination" name="destination" placeholder="Enter Destination" required>
+            <input type="date" id="departure-date" name="departure-date" required>
+            <input type="number" id="adults" name="adults" placeholder="Number of adults" min="1" required>
+            <button type="submit" id="search-button">Search Flights</button>
+        </form>
+    </div>
+
+    <!-- available Flights -->
+    <div class="flight-list">
+        <div class="flight-card">
+            <h3>New York to London</h3>
+            <p><strong>Departure:</strong> 2024-12-10 8:00 AM</p>
+            <p><strong>Arrival:</strong> 2024-12-10 8:00 PM</p>
+            <p><strong>Price:</strong> $799</p>
+        </div>
+
+        <div class="flight-card">
+            <h3>Los Angeles to Tokyo</h3>
+            <p><strong>Departure:</strong> 2024-12-15 9:00 AM</p>
+            <p><strong>Arrival:</strong> 2024-12-15 6:00 PM</p>
+            <p><strong>Price:</strong> $950</p>
+        </div>
+
+        <div class="flight-card">
+            <h3>Paris to Rome</h3>
+            <p><strong>Departure:</strong> 2024-12-20 7:00 AM</p>
+            <p><strong>Arrival:</strong> 2024-12-20 10:00 AM</p>
+            <p><strong>Price:</strong> $450</p>
+        </div>
+
+        <div class="flight-card">
+            <h3>Miami to Dubai</h3>
+            <p><strong>Departure:</strong> 2024-12-25 10:00 AM</p>
+            <p><strong>Arrival:</strong> 2024-12-25 7:00 PM</p>
+            <p><strong>Price:</strong> $1,200</p>
+        </div>
+    </div>
+
+</body>
+</html>
+
